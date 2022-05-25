@@ -1,0 +1,64 @@
+.SIdesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+.sImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.searchItem{
+    display: flex;
+    border: 1px solid gray;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.SIdetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.siTitle{
+    color: #0071c2;
+}
+.siTaxiOp{
+    background-color: #008009;
+    color: white;
+    font-size: 12px;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.siRating{
+    display: flex;
+    justify-content: space-between;
+}
+.siRating button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+}
+.SIdetailsText{
+    display: flex ;
+    right: 0;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px;
+}
+.SIbutton{
+    background-color: #0071c2;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px ;
+}

@@ -1,0 +1,31 @@
+.FavouriteProp{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    gap: 20px;
+}
+.fpItems{
+    flex: 1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.fpImg{
+    width: 100%;
+}
+.fpPrice{
+    font-weight: 500;
+}
+.fpRating button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.fpTitles span{
+    font-weight: bold;
+}
+.fpCity{
+    font-weight: 300;
+}

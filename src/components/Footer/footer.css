@@ -1,0 +1,22 @@
+.Footer{
+    width: 100%;
+    max-width: 1024px;
+  
+}
+.ftListItems{
+    list-style: none;
+    /* padding:0; */
+    color: #003580;
+    margin-bottom: 10px;
+    
+}
+.footerList{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.footercopywrite{
+    display: flex;
+    justify-content: center;
+}
